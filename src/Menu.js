@@ -1,0 +1,75 @@
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Menu.css';
+import home from './images/home.png'; 
+import social from './images/social.png'; 
+import skills from './images/skills.png'; 
+import cv from './images/cv.png'; 
+
+function Menu() {
+
+  const [visible, setVisible] = useState(false);
+  const [visible2, setVisible2] = useState(false);
+  const [visible3, setVisible3] = useState(false);
+  const [visible4, setVisible4] = useState(false);
+
+  return (
+    <div className="card card-1 align-right">
+
+      <div className="img-card1" style={visible ? { display: 'flex' } : { display: 'none' }}>Home</div>
+      <Link to="/website">
+      <div className="menu-img">
+        <img
+          className="home"
+          src={home}
+          alt="alt"
+          onMouseOver={() => setVisible(true)}
+          onMouseOut={() => setVisible(false)}
+        />
+      </div>
+      </Link>
+        
+      <div className="img-card2" style={visible2 ? { display: 'flex' } : { display: 'none' }}>Social</div>  
+      <Link to="/social"> 
+        <div className="menu-img">
+          <img
+            className="home"
+            src={social}
+            alt="alt"
+            onMouseOver={() => setVisible2(true)}
+            onMouseOut={() => setVisible2(false)}
+          />
+          
+        </div>
+      </Link> 
+
+      <div className="img-card3" style={visible3 ? { display: 'flex' } : { display: 'none' }}>Skills</div>
+      <Link to="/skills">
+      <div className="menu-img">
+        <img
+          className="home"
+          src={skills}
+          alt="alt"
+          onMouseOver={() => setVisible3(true)}
+          onMouseOut={() => setVisible3(false)}
+        />
+      </div>
+      </Link> 
+      
+      <div className="img-card4" style={visible4 ? { display: 'flex' } : { display: 'none' }}>CV</div>
+      <div className="menu-img">
+        <a href='https://drive.google.com/file/d/15ndDmImRvf5K8sjGON180cw226IslRNq/view?usp=sharing' rel="noreferrer" target='_blank'>
+        <img
+          className="home"
+          src={cv}
+          alt="alt"
+          onMouseOver={() => setVisible4(true)}
+          onMouseOut={() => setVisible4(false)}
+        />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Menu;
