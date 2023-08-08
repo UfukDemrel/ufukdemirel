@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Menu from './Menu';
@@ -9,6 +10,10 @@ import './components/Social.css';
 import Header from './Header';
 
 function App() {
+  useEffect(() => {
+    window.location.pathname === '/' && window.location.replace('/website');
+  }, []);
+
   return (
     <div className="app container-fluid homepage-slider-container">
       <div className='wrapper'>
