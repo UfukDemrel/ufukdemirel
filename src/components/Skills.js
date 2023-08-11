@@ -14,6 +14,7 @@ const Skills = () => {
           <img className='' src="mysql.png" alt='alt'/>
           <img className='' src="mssql.png" alt='alt'/>
           <img className='' src="shopify.png" alt='alt'/>
+          <img className='' src="typescript.png" alt='alt'/>
       </div>
     </div>
   );
