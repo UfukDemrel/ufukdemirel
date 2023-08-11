@@ -102,7 +102,7 @@ const Social = () => {
             </div>
           </a>
 
-          <p style={{ display: 'flex', justifyContent: 'center' }}>
+          <p className="p-box">
             <div class="grid-item color8">
               <img src={spotify} alt="top logo" />
                 <p className='title'>Sustum</p>

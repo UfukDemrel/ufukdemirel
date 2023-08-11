@@ -70,6 +70,7 @@
         font-family: inter, sans-serif;
         font-size: 15px;
         font-weight: 500;
+        font-style: italic;
     }
 }
 
@@ -107,65 +108,69 @@
 }
 
 @media screen and (min-width:1023px) {
-.user-bio-div{
-    display: inline-block;
-    margin-top: 2%;
-}
-
-.user-bio-p{
-    font-family: inter, sans serif;
-    font-size: x-large;
-    font-weight: 600;
-    color: #303133;
-}
-
-.drop-in {
-    animation: drop-in 1s ease 200ms backwards;
-}
-   
-.drop-in-2 {
-    animation: drop-in 1200ms ease 500ms backwards;
-}
-
-.grow {
-    animation: grow 2s ease;
-  }
-  @keyframes grow {
-    from { transform: scale(0); }
-    to { transform: scale(1); }
-}
-
-@keyframes drop-in {
-    from {
-     opacity: 0;
-     transform: translateY(-100px);
+    .quetes{
+        display: none;
     }
-    to {
-     opacity: 1;
-     transform: translate(0px);
+
+    .user-bio-div{
+        display: inline-block;
+        margin-top: 2%;
     }
-}
 
-.user-bio-text{
-    font-family: inter, sans serif;
-    font-size: 68px;
-    font-weight: 600;
-    width: 50%;
-    display: inline-block;
-    color: #303133;
-}
+    .user-bio-p{
+        font-family: inter, sans serif;
+        font-size: x-large;
+        font-weight: 600;
+        color: #303133;
+    }
 
-.user-bio-img{
-    width: 35%;
-    height: 465px;
-    float: right;
-    border-radius: 2px;
-    margin: 2% 0;
-    object-fit: cover;
-}
+    .drop-in {
+        animation: drop-in 1s ease 200ms backwards;
+    }
+    
+    .drop-in-2 {
+        animation: drop-in 1200ms ease 500ms backwards;
+    }
 
-.img-text{
-    margin-top: 3%;
-}
+    .grow {
+        animation: grow 2s ease;
+    }
+    @keyframes grow {
+        from { transform: scale(0); }
+        to { transform: scale(1); }
+    }
+
+    @keyframes drop-in {
+        from {
+        opacity: 0;
+        transform: translateY(-100px);
+        }
+        to {
+        opacity: 1;
+        transform: translate(0px);
+        }
+    }
+
+    .user-bio-text{
+        font-family: inter, sans serif;
+        font-size: 68px;
+        font-weight: 600;
+        width: 50%;
+        display: inline-block;
+        color: #303133;
+    }
+
+    .user-bio-img{
+        width: 35%;
+        height: 465px;
+        float: right;
+        border-radius: 2px;
+        margin: 2% 0;
+        object-fit: cover;
+    }
+
+    .img-text{
+        margin-top: 3%;
+    }
 }
 
