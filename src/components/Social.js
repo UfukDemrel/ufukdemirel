@@ -39,7 +39,7 @@ const Social = () => {
       </div>
 
       <div class="grid-container">
-          <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
+          <a href='https://www.instagram.com/ufukdemrel/' target='_blank' rel="noreferrer">
             <div class="grid-item color1">
               <img alt='alt' src={instagram}/>
               <p className='title'>ufukdemrel</p>
