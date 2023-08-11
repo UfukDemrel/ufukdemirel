@@ -8,7 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <p className='footer'>© Copyright Ufuk Demirel. All rights reserved</p>
   </React.StrictMode>
 );
 

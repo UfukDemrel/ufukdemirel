@@ -7,7 +7,7 @@
     display: block;
     width: 100%;
     border-radius: 20px;
-    margin-top: 65%;
+    margin-top: 45%;
   }
 
   .two-grid img{
@@ -19,9 +19,9 @@
   .grid-container{
     resize: both;
     display: grid;
-    gap: 10% 2rem;
-    grid-template-columns: repeat(2, 1fr);
+    gap: 6% 2rem;    
     margin-top: 10%;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
 

@@ -7,6 +7,7 @@ import User from './components/User';
 import Skills from './components/Skills';
 import './components/User.css';
 import './components/Social.css';
+import './components/Skills.css';
 import Header from './Header';
 
 function App() {

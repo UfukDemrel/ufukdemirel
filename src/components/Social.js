@@ -102,6 +102,7 @@ const Social = () => {
             </div>
           </a>
 
+          <p style={{ display: 'flex', justifyContent: 'center' }}>
             <div class="grid-item color8">
               <img src={spotify} alt="top logo" />
                 <p className='title'>Sustum</p>
@@ -117,7 +118,10 @@ const Social = () => {
                     {isPlaying ? "Pause" : "Play"}
                   </button>
             </div>
+          </p> 
+
         </div>
+        
           <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
               <div className='two-grid'>
                 <img alt='alt' src={wander}/>
