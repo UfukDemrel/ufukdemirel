@@ -117,8 +117,12 @@ const Social = () => {
                     {isPlaying ? "Pause" : "Play"}
                   </button>
             </div>
-
         </div>
+          <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
+              <div className='two-grid'>
+                <img alt='alt' src={wander}/>
+              </div>
+          </a>
     </div>
   );
 };
