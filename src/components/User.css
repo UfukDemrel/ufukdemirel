@@ -86,7 +86,7 @@
     }
 }
 
-@media screen and (min-width:377px) and (max-width:391px){  
+@media screen and (min-width:377px) and (max-width: 392px){  
     .user-bio-img {
         width: 60%;
         height: 220px;
