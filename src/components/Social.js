@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import wander from '../images/wander.gif'; 
+import youtubelogo from '../images/youtube-logo.png'; 
+import youtube from '../images/youtube.png'; 
 import instagram from '../images/instagram.png'; 
 import twitter from '../images/twitter.png'; 
 import linkedlin from '../images/linkedlin.png'; 
@@ -33,7 +34,10 @@ const Social = () => {
         <div className='user-bio-p'>Social</div>
         <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
           <div className='one-grid'>
-            <img alt='alt' src={wander}/>
+            <img alt='alt' className="youtubelogo" src={youtubelogo}/>
+            <p className='y-title'>Infinite Scroll On Collection Page Without App | Shopify</p>
+            <p className='y-text'>youtube.com</p>
+            <img className="youtube" alt='alt' src={youtube}/>
           </div>
         </a>
       </div>
@@ -122,10 +126,13 @@ const Social = () => {
 
         </div>
         
-          <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
-              <div className='two-grid'>
-                <img alt='alt' src={wander}/>
-              </div>
+          <a href='https://www.youtube.com/watch?v=eiyMQP9-10s&t=10s' target='_blank' rel="noreferrer">
+          <div className='two-grid'>
+            <img alt='alt' className="youtubelogo-m" src={youtubelogo}/>
+            <p className='y-m-title'>Infinite Scroll On Collection Page Without App | Shopify</p>
+            <p className='y-m-text'>youtube.com</p>
+            <img className="youtube-m" alt='alt' src={youtube}/>
+          </div>
           </a>
     </div>
   );

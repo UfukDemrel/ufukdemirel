@@ -15,14 +15,12 @@ function App() {
     window.location.pathname === '/' && window.location.replace('/website');
   }, []);
 
-  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simüle edilmiş bir API isteği
     setTimeout(() => {
       // API'den veri alındığında
-      setData('Örnek Veri');
       setLoading(false); // Yükleme tamamlandı
     }, 1000); // 1 saniye sonra veri gelir gibi düşünelim
 
@@ -31,7 +29,7 @@ function App() {
   return (
     <div>
   {loading ? (
-    <p>Veri yükleniyor...</p>
+    <div class="loading">Loading&#8230;</div>
   ) : (
     <div className="app container-fluid homepage-slider-container">
     <div className='wrapper'>
