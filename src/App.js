@@ -28,28 +28,26 @@ function App() {
 
   }, []);
 
-  <div>
+  return (
+    <div>
   {loading ? (
     <p>Veri yükleniyor...</p>
   ) : (
-    <p>{data}</p>
+    <div className="app container-fluid homepage-slider-container">
+    <div className='wrapper'>
+      <Header/>
+      <Router>
+        <Switch>
+          <Route path="/website" component={User} />
+          <Route path="/social" component={Social} />
+          <Route path="/skills" component={Skills} />
+        </Switch>
+        <Menu/> 
+      </Router>
+    </div>
+  </div>
   )}
 </div>
-
-  return (
-    <div className="app container-fluid homepage-slider-container">
-      <div className='wrapper'>
-        <Header/>
-        <Router>
-          <Switch>
-            <Route path="/website" component={User} />
-            <Route path="/social" component={Social} />
-            <Route path="/skills" component={Skills} />
-          </Switch>
-          <Menu/> 
-        </Router>
-      </div>
-    </div>
   );
 }
 
