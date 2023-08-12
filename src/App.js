@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Menu from './Menu';
@@ -14,6 +14,27 @@ function App() {
   useEffect(() => {
     window.location.pathname === '/' && window.location.replace('/website');
   }, []);
+
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simüle edilmiş bir API isteği
+    setTimeout(() => {
+      // API'den veri alındığında
+      setData('Örnek Veri');
+      setLoading(false); // Yükleme tamamlandı
+    }, 2000); // 2 saniye sonra veri gelir gibi düşünelim
+
+  }, []);
+
+  <div>
+  {loading ? (
+    <p>Veri yükleniyor...</p>
+  ) : (
+    <p>{data}</p>
+  )}
+</div>
 
   return (
     <div className="app container-fluid homepage-slider-container">
