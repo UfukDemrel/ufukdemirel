@@ -152,7 +152,7 @@
     }
 }
 
-@media screen and (min-width:392px) and (max-width:416px){  
+@media screen and (min-width:392px) and (max-width:420px){  
     .card {
         background: #fff;
         border-radius: 10px;
