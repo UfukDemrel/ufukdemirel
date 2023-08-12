@@ -24,7 +24,7 @@ function App() {
       // API'den veri alındığında
       setData('Örnek Veri');
       setLoading(false); // Yükleme tamamlandı
-    }, 2000); // 2 saniye sonra veri gelir gibi düşünelim
+    }, 1000); // 1 saniye sonra veri gelir gibi düşünelim
 
   }, []);
 
