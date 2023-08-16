@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
   {loading ? (
-    <div class="loading">Loading&#8230;</div>
+    <div className="loading">Loading&#8230;</div>
   ) : (
     <div className="app container-fluid homepage-slider-container">
     <div className='wrapper'>
