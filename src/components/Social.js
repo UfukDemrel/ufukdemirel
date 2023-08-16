@@ -98,7 +98,7 @@ const Social = () => {
             </div>
           </a>
 
-          <a href='alt' rel="noreferrer">
+          <a href='' rel="noreferrer">
             <div className="grid-item color8">
               <img src={spotify} alt="top logo" />
                 <p className='title'>Sustum</p>
@@ -124,7 +124,7 @@ const Social = () => {
             </div>
           </a>
 
-          <a href='https://mail.google.com/mail/u/0/?pli=1#inbox' target='_blank' rel="noreferrer">
+          <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
             <div className="grid-item padding">
               <img className="sea" src='sea.gif' alt="top logo" />
             </div>
