@@ -98,20 +98,17 @@ const Social = () => {
             </div>
           </a>
 
-          <a href='' rel="noreferrer">
+          <a href="#" onClick={(e) => e.preventDefault()}>
             <div className="grid-item color8">
               <img src={spotify} alt="top logo" />
-                <p className='title'>Sustum</p>
-                <p className='text'>Evdeki Saat</p>
-                  <audio style={{display: 'none'}}  ref={audioRef} controls>
-                    <source src={sustum} type="audio/mpeg"/>
-                  </audio>
-                  <button className="spotify"
-                    type="button"
-                    onClick={handlePlayButtonClick}
-                  >
-                    {isPlaying ? "Pause" : "Play"}
-                  </button>
+              <p className="title">Sustum</p>
+              <p className="text">Evdeki Saat</p>
+              <audio style={{ display: "none" }} ref={audioRef} controls>
+                <source src={sustum} type="audio/mpeg" />
+              </audio>
+              <button className="spotify" type="button" onClick={handlePlayButtonClick}>
+                {isPlaying ? "Pause" : "Play"}
+              </button>
             </div>
           </a>
 
