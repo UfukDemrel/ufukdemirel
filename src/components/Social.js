@@ -150,7 +150,7 @@ const Social = () => {
           <a href='https://youtu.be/O2UzkR5Msrw' target='_blank' rel="noreferrer">
             <div className='one-grid space'>
               <img alt='alt' className="youtubelogo" src={youtubelogo}/>
-              <p className='y-title'>How do React projects go live?</p>
+              <p className='y-title'>How to bring React projects live with Vercel?</p>
               <p className='y-text'>youtube.com</p>
               <img className="youtube" alt='alt' src='react.png'/>
             </div>
