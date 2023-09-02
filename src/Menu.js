@@ -4,6 +4,7 @@ import './Menu.css';
 import home from './images/home.png'; 
 import social from './images/social.png'; 
 import skills from './images/skills.png'; 
+import pro from './images/pro.png'; 
 import cv from './images/cv.png'; 
 
 function Menu() {
@@ -12,6 +13,7 @@ function Menu() {
   const [visible2, setVisible2] = useState(false);
   const [visible3, setVisible3] = useState(false);
   const [visible4, setVisible4] = useState(false);
+  const [visible5, setVisible5] = useState(false);
 
   return (
     <div className="card card-1 align-right">
@@ -55,6 +57,19 @@ function Menu() {
         />
       </div>
       </Link> 
+
+      <div className="img-card5" style={visible5 ? { display: 'flex' } : { display: 'none' }}>Projects</div>
+      <Link to="/projects">
+      <div className="menu-img">
+        <img
+          className="home"
+          src={pro}
+          alt="alt"
+          onMouseOver={() => setVisible5(true)}
+          onMouseOut={() => setVisible5(false)}
+        />
+      </div>
+      </Link>
       
       <div className="img-card4" style={visible4 ? { display: 'flex' } : { display: 'none' }}>CV</div>
       <div className="menu-img">

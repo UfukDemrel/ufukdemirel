@@ -8,7 +8,9 @@ import Skills from './components/Skills';
 import './components/User.css';
 import './components/Social.css';
 import './components/Skills.css';
+import './components/Projects.css';
 import Header from './Header';
+import Projects from './components/Projects';
 
 function App() {
   useEffect(() => {
@@ -39,6 +41,7 @@ function App() {
           <Route path="/website" component={User} />
           <Route path="/social" component={Social} />
           <Route path="/skills" component={Skills} />
+          <Route path="/projects" component={Projects} />
         </Switch>
         <Menu/> 
       </Router>
