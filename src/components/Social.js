@@ -152,7 +152,7 @@ const Social = () => {
               <img alt='alt' className="youtubelogo" src={youtubelogo}/>
               <p className='y-title'>How to make React projects live with Github and Vercel?</p>
               <p className='y-text'>youtube.com</p>
-              <img className="youtube" alt='alt' src='react.png'/>
+              <img className="youtube" alt='alt' src='red.png'/>
             </div>
           </a>
 
