@@ -1,6 +1,7 @@
 import React from 'react'
 import music from '../images/music.png'; 
 import chat from '../images/chat.png'; 
+import shop from '../images/shop.png'; 
 
 function Projects() {
   return (
@@ -19,6 +20,13 @@ function Projects() {
           <div className='pro-box'>
               <div className='pro-title'>Chat App</div>
               <img src={chat} alt='alt'/>
+          </div>
+        </a>
+
+        <a href='https://chat-app-eta-opal.vercel.app/' target='_blank' rel="noreferrer">
+          <div className='pro-box'>
+              <div className='pro-title'>Shopping App</div>
+              <img src={shop} alt='alt'/>
           </div>
         </a>
  
