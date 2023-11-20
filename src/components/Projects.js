@@ -24,7 +24,7 @@ function Projects() {
           </div>
         </a>
 
-        <a href='https://ecommerce-app-swart-nine.vercel.app/' target='_blank' rel="noreferrer">
+        <a href='https://ecommerce-app-five-flax.vercel.app/' target='_blank' rel="noreferrer">
           <div className='pro-box'>
               <div className='pro-title'>Shopping App</div>
               <img src={shop} alt='alt'/>
