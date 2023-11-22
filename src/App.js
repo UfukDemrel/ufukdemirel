@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import html2canvas from 'html2canvas'; // html2canvas kütüphanesini ekleyin
 import './App.css';
 import Menu from './Menu';
 import Social from './components/Social';
@@ -28,27 +29,45 @@ function App() {
 
   }, []);
 
+  useEffect(() => {
+    const handleScreenshot = () => {
+      // Ekran görüntüsü al
+      html2canvas(document.body).then((canvas) => {
+        // Ekran görüntüsünü alındığında sayfayı yenile
+        window.location.reload();
+      });
+    };
+
+    // Ekran görüntüsü alma işlemi tetiklendiğinde handleScreenshot fonksiyonunu çağır
+    window.addEventListener('keyup', handleScreenshot);
+
+    // Component kaldırıldığında event listener'ı temizle
+    return () => {
+      window.removeEventListener('keyup', handleScreenshot);
+    };
+  }, []);
+
   return (
     <div>
-  {loading ? (
-    <div className="loading">Loading&#8230;</div>
-  ) : (
-    <div className="app container-fluid homepage-slider-container">
-    <div className='wrapper'>
-      <Header/>
-      <Router>
-        <Switch>
-          <Route path="/website" component={User} />
-          <Route path="/social" component={Social} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-        </Switch>
-        <Menu/> 
-      </Router>
+      {loading ? (
+        <div className="loading">Loading...</div>
+      ) : (
+        <div className="app container-fluid homepage-slider-container">
+          <div className='wrapper'>
+            <Header/>
+            <Router>
+              <Switch>
+                <Route path="/website" component={User} />
+                <Route path="/social" component={Social} />
+                <Route path="/skills" component={Skills} />
+                <Route path="/projects" component={Projects} />
+              </Switch>
+              <Menu/> 
+            </Router>
+          </div>
+        </div>
+      )}
     </div>
-  </div>
-  )}
-</div>
   );
 }
 
