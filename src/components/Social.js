@@ -112,7 +112,7 @@ const Social = () => {
             </div>
           </a>
 
-          <a href='https://www.pexels.com/tr-tr/@ufuk-demirel-685205934/' target='_blank' rel="noreferrer">
+          <a href="https://www.pexels.com/tr-tr/@ufuk-demirel-685205934/" target='_blank' rel="noreferrer">
             <div className="grid-item color9">
               <img src="https://play-lh.googleusercontent.com/KtFwMsqVzBBpTFc8vR5SZRCNBvqknlWurnzTRl4J-2kdZhoM04LjklX9Vh8pl-fYfpU" alt="top logo" />
                 <p className='title'>ufuk demirel</p>
@@ -121,42 +121,51 @@ const Social = () => {
             </div>
           </a>
 
-          <a href='https://www.instagram.com/wanderscenic/' target='_blank' rel="noreferrer">
+          <a href="https://www.instagram.com/wanderscenic/" target='_blank' rel="noreferrer">
             <div className="grid-item padding">
               <img className="sea" src='sea.gif' alt="top logo" />
             </div>
           </a>
         </div>
 
-      <div className="two-grid">
-          <a href='https://www.youtube.com/watch?v=eiyMQP9-10s&t=22s' target='_blank' rel="noreferrer">
-            <div className='one-grid'>
-              <img alt='alt' className="youtubelogo" src={youtubelogo}/>
-              <p className='y-title'>Infinite Scroll On Collection Page Without App | Shopify</p>
-              <p className='y-text'>youtube.com</p>
-              <img className="youtube" alt='alt' src={youtube}/>
-            </div>
-          </a>
+        <div className="two-grid">
+  <a href="https://www.youtube.com/watch?v=eiyMQP9-10s&t=22s" target='_blank' rel="noreferrer">
+    <div className='one-grid'>
+      <img alt='alt' className="youtubelogo" src={youtubelogo}/>
+      <p className='y-title'>Infinite Scroll On Collection Page Without App | Shopify</p>
+      <p className='y-text'>youtube.com</p>
+      <img className="youtube" alt='alt' src={youtube}/>
+    </div>
+  </a>
 
-          <a href='https://www.youtube.com/watch?v=V4rQ4QuhzVs&t=10s' target='_blank' rel="noreferrer">
-            <div className='one-grid space'>
-              <img alt='alt' className="youtubelogo" src={youtubelogo}/>
-              <p className='y-title'>Infinite Scroll on Collection Page that Can be Called Across the Entire Project Without an App</p>
-              <p className='y-text'>youtube.com</p>
-              <img className="youtube" alt='alt' src='page.png'/>
-            </div>
-          </a>
+  <a href="https://www.youtube.com/watch?v=V4rQ4QuhzVs&t=10s" target='_blank' rel="noreferrer">
+    <div className='one-grid space'>
+      <img alt='alt' className="youtubelogo" src={youtubelogo}/>
+      <p className='y-title'>Infinite Scroll on Collection Page that Can be Called Across the Entire Project Without an App</p>
+      <p className='y-text'>youtube.com</p>
+      <img className="youtube" alt='alt' src='page.png'/>
+    </div>
+  </a>
 
-          <a href='https://youtu.be/O2UzkR5Msrw' target='_blank' rel="noreferrer">
-            <div className='one-grid space'>
-              <img alt='alt' className="youtubelogo" src={youtubelogo}/>
-              <p className='y-title'>How to make React projects live with Github and Vercel?</p>
-              <p className='y-text'>youtube.com</p>
-              <img className="youtube" alt='alt' src='red.png'/>
-            </div>
-          </a>
+  <a href="https://youtu.be/O2UzkR5Msrw" target='_blank' rel="noreferrer">
+    <div className='one-grid space'>
+      <img alt='alt' className="youtubelogo" src={youtubelogo}/>
+      <p className='y-title'>How to make React projects live with Github and Vercel?</p>
+      <p className='y-text'>youtube.com</p>
+      <img className="youtube" alt='alt' src='red.png'/>
+    </div>
+  </a>
 
-      </div>
+  <a href="https://www.youtube.com/playlist?list=PLgENWnfcPjeaFOMl44BxgKqNFRX3gXtq0" target='_blank' rel="noreferrer">
+    <div className='one-grid'>
+      <img alt='alt' className="youtubelogo" src={youtubelogo}/>
+      <p className='y-title'>Follow our next.js course and let's improve together!</p>
+      <p className='y-text'>youtube.com</p>
+      <img src='next.png' className="youtube" alt='alt'/>
+    </div>
+  </a>
+</div>
+
     </div>
   );
 };
