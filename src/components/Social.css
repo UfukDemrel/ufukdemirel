@@ -1,0 +1,507 @@
+@media screen and (min-width:350px) and (max-width:480px) {
+  .one-grid{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(235 235 235);
+    padding: 12px;
+    background-color: #FFF0F0;
+    margin-bottom: 5%;
+  }
+
+  .two-grid{
+    margin-top: 60%;
+  }
+
+  .y-title{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .y-text{
+    font-weight: 100;
+    font-size: 11px;
+    margin-top: 2%;
+    color: black;
+  }
+  
+  .youtubelogo{
+    margin-bottom: 5%;
+    width: 13%;
+    height: 11%;
+    border-radius: 7px;
+  }
+  
+  .youtube{
+    width: -webkit-fill-available;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+
+  .grid-container{
+    resize: both;
+    display: grid;
+    gap: 6% 2rem;    
+    margin-top: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  .grid-container a{
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgb(235 235 235);
+    border-radius: 20px;
+    text-align: left;
+    color: black;
+    font-family: inter, sans-serif;
+    padding: 25px;
+    width: 90%;
+    height: 100%;
+  }
+
+  .grid-item img{
+    margin-bottom: 10%;
+    width: 30%;
+    border-radius: 7px;
+  }
+
+  .title{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .text{
+    font-weight: 100;
+    font-size: 11px;
+  }
+
+  .instagram{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #E03C60;
+  }
+
+  .color1{
+    background-color: #fee4e4;
+  }
+
+  .twitter{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #229DF0;
+  }
+
+  .color2{
+    background-color: #e2eff9;
+  }
+
+  .linkedlin{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #0277B5;
+  }
+
+  .color3{
+    background-color: #f1f2f6;
+  }
+
+  .github{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  .color4{
+  
+  }
+
+  .bionluk{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #F83D58;
+  }
+
+  .color5{
+    background-color: #ffeeee;
+  }
+
+  .udemy{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #32044F;
+  }
+
+  .color6{
+    background-color: #e1d4f9;
+  }
+
+  .gmail{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 25%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(60, 186, 84), rgb(244, 194, 13), rgb(219, 50, 54), rgb(72, 133, 237));
+  }
+
+  .color7{
+  }
+
+  .color8{
+    background-color: #d2d8d4;
+  }
+
+  .color9{
+    background-color: #dff8f5;
+  }
+
+  .pexel{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #52AFA2;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .medium{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    /* width: 50%; */
+    height: 27px;
+    border-radius: 10px;
+    background-color: #22c35a;
+  }
+
+  .sea{
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+  }
+
+  .padding{
+    padding: 0px !important;
+    border: none;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:1023px) {
+  .all{
+    display: flex;
+  }
+
+  .one-grid{
+    width: 330px;
+    height: 361px;
+    border-radius: 20px;
+    margin-top: 10%;
+    border: 1px solid rgb(235 235 235);
+    padding: 12px;
+    background-color: #FFF0F0;
+    display: inline-block;
+  }
+
+  .space{
+    margin-left: 6%;
+  }
+
+  .y-title{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+  }
+
+  .y-text {
+    font-weight: 100;
+    font-size: 11px;
+    margin-top: 2%;
+    color: black;
+  }
+
+  .youtubelogo{
+    margin-bottom: 5%;
+    width: 13%;
+    height: 11%;
+    border-radius: 7px;
+  }
+
+  .youtube{
+    width: -webkit-fill-available;
+    margin-top: 5%;
+    border-radius: 10px;
+  }
+
+  .grid-container {
+    resize: both;
+    display: grid;
+    gap: 10% 2rem;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+  }
+    
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgb(235 235 235);
+    border-radius: 20px;
+    text-align: left;
+    color: black;
+    font-family: inter, sans-serif;
+    padding: 23px;
+    width: 90%;
+    height: 100%;
+  }
+
+  .grid-item img{
+    margin-bottom: 10%;
+    width: 30%;
+    border-radius: 7px;
+  }
+
+  .title{
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+  }
+
+  .text{
+    font-weight: 100;
+    font-size: 11px;
+    margin-bottom: revert;
+  }
+
+  .color1{
+    background-color: #fee4e4;
+  }
+
+  .color2{
+    background-color: #e2eff9;
+  }
+
+  .color3{
+    background-color: #f1f2f6;
+  }
+
+  .color5{
+    background-color: #ffeeee;
+  }
+
+  .color6{
+    background-color: #e1d4f991;
+  }
+
+  .color8{
+    background-color: #d2d8d4;
+  }
+
+  .color9{
+    background-color: #dff8f5;
+  }
+
+  .instagram{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #E03C60;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .twitter{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #229DF0;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .linkedlin{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #0277B5;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .github{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: black;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bionluk{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #F83D58;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .udemy{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #32044F;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .gmail{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(60, 186, 84), rgb(244, 194, 13), rgb(219, 50, 54), rgb(72, 133, 237));
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .medium{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #22c35a;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pexel{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #52AFA2;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sea{
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+  }
+
+  .padding{
+    padding: 5px !important;
+    border: none;
+  }
+
+  .two-grid{
+    grid-template-columns: repeat(3, 1fr);
+    resize: both;
+    display: grid;
+    margin-top: 5%;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,177 @@
+@media screen and (min-width:350px) and (max-width:480px) {
+.user-bio-p{
+    font-family: inter, sans serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: #303133;
+    margin-bottom: 5%;
+}
+
+.user-bio-div{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+   
+.drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+}
+
+.grow {
+    animation: grow 2s ease;
+  }
+  @keyframes grow {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+}
+
+.user-bio-text{
+    font-family: inter, sans serif;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    color: #303133;
+    margin-top: 5%;
+}
+
+    .quetes{
+        background-color: white;
+        border: 1px solid rgb(235 235 235);
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        height: 120px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .quetes img{
+        width: 10%;
+        margin-bottom: 1%;
+    }
+
+    .quetes p{
+        text-align: left;
+        color: black;
+        font-family: inter, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width:376px){  
+    .user-bio-img {
+        width: 60%;
+        height: 210px;
+        border-radius: 155px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width: 392px){  
+    .user-bio-img {
+        width: 60%;
+        height: 220px;
+        border-radius: 155px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:392px) and (max-width:450px){  
+    .user-bio-img {
+        width: 60%;
+        height: 235px;
+        border-radius: 155px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1023px) {
+    .quetes{
+        display: none;
+    }
+
+    .user-bio-div{
+        display: inline-block;
+        margin-top: 2%;
+    }
+
+    .user-bio-p{
+        font-family: inter, sans serif;
+        font-size: x-large;
+        font-weight: 600;
+        color: #303133;
+    }
+
+    .drop-in {
+        animation: drop-in 1s ease 200ms backwards;
+    }
+    
+    .drop-in-2 {
+        animation: drop-in 1200ms ease 500ms backwards;
+    }
+
+    .grow {
+        animation: grow 2s ease;
+    }
+    @keyframes grow {
+        from { transform: scale(0); }
+        to { transform: scale(1); }
+    }
+
+    @keyframes drop-in {
+        from {
+        opacity: 0;
+        transform: translateY(-100px);
+        }
+        to {
+        opacity: 1;
+        transform: translate(0px);
+        }
+    }
+
+    .user-bio-text{
+        font-family: inter, sans serif;
+        font-size: 68px;
+        font-weight: 600;
+        width: 50%;
+        display: inline-block;
+        color: #303133;
+    }
+
+    .user-bio-img{
+        width: 35%;
+        height: 465px;
+        float: right;
+        border-radius: 2px;
+        margin: 2% 0;
+        object-fit: cover;
+    }
+
+    .img-text{
+        margin-top: 3%;
+    }
+}
+
