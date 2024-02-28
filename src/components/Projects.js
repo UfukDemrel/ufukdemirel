@@ -1,8 +1,10 @@
 import React from 'react'
 import music from '../images/music.png'; 
-import chat from '../images/chat.png'; 
 import shop from '../images/shop.png'; 
-import calculator from '../images/calculator.png'; 
+import translate from '../images/translate.jpg'; 
+import dropzone from '../images/dropzone.jpg'; 
+import editor from '../images/editor.jpg'; 
+import portfolio from '../images/portfolio.jpg'; 
 
 function Projects() {
   return (
@@ -10,40 +12,41 @@ function Projects() {
       <div className='user-bio-p'>Projects</div>
       <div className='projects'>
 
-        <a href='https://responsive-mu-bay.vercel.app' target='_blank' rel="noreferrer">
-            <div className='pro-box'>
-                <div className='pro-title'>Music App</div>
-                <img src={music} alt='alt'/>
-            </div>
-        </a>
-
-        <a href='https://chat-app-eta-opal.vercel.app/' target='_blank' rel="noreferrer">
+      <a href='https://translate-drab-tau.vercel.app/' target='_blank' rel="noreferrer">
           <div className='pro-box'>
-              <div className='pro-title'>Chat App</div>
-              <img src={chat} alt='alt'/>
+              <img src={translate} alt='alt'/>
           </div>
         </a>
 
-        <a href='https://ecommerce-app-five-flax.vercel.app/' target='_blank' rel="noreferrer">
+        <a href='https://dropzone-bay.vercel.app/' target='_blank' rel="noreferrer">
           <div className='pro-box'>
-              <div className='pro-title'>Shopping App</div>
+              <img src={dropzone} alt='alt'/>
+          </div>
+        </a>
+
+        <a href='https://www.youtube.com/watch?v=n8IDqeaPi8U' target='_blank' rel="noreferrer">
+          <div className='pro-box'>
+              <img src={editor} alt='alt'/>
+          </div>
+        </a>
+
+        <a href='https://portfolio-git-main-ufukdemrel.vercel.app/' target='_blank' rel="noreferrer">
+          <div className='pro-box'>
+              <img src={portfolio} alt='alt'/>
+          </div>
+        </a>
+
+      <a href='https://ecommerce-app-five-flax.vercel.app/' target='_blank' rel="noreferrer">
+          <div className='pro-box'>
               <img src={shop} alt='alt'/>
           </div>
         </a>
-
-        <a href='https://calculator-nine-phi-26.vercel.app/' target='_blank' rel="noreferrer">
-          <div className='pro-box'>
-              <div className='pro-title'>Calculator App</div>
-              <img src={calculator} alt='alt'/>
-          </div>
-        </a>
  
-      {/* 
-        <div className='pro-box'>
-            <div className='pro-title'>WAWE MUSİC WEBSİTE</div>
-            <img src={music} alt='alt'/>
-        </div> */}
-
+        <a href='https://responsive-mu-bay.vercel.app' target='_blank' rel="noreferrer">
+            <div className='pro-box'>
+                <img src={music} alt='alt'/>
+            </div>
+        </a>
       </div>
     </div>
   )
