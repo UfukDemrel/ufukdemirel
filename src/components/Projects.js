@@ -5,6 +5,7 @@ import translate from '../images/translate.jpg';
 import dropzone from '../images/dropzone.jpg'; 
 import editor from '../images/editor.jpg'; 
 import portfolio from '../images/portfolio.jpg'; 
+import speech from '../images/speech.jpg'; 
 
 function Projects() {
   return (
@@ -22,6 +23,12 @@ function Projects() {
           <div className='pro-box'>
               <img src={dropzone} alt='alt'/>
           </div>
+        </a>
+
+        <a href='https://www.youtube.com/watch?v=HIf0FSB7qVs' target='_blank' rel="noreferrer">
+            <div className='pro-box'>
+                <img src={speech} alt='alt'/>
+            </div>
         </a>
 
         <a href='https://www.youtube.com/watch?v=n8IDqeaPi8U' target='_blank' rel="noreferrer">
