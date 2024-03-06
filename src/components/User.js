@@ -7,7 +7,7 @@ function User() {
           <div className='user-bio-div'>
               <div className='user-bio-p drop-in'>Hello!</div>
               <div className='img-text'>
-                <img src={profileImage} className='user-bio-img grow' alt="alt"/>
+                <img src={profileImage} className='user-bio-img grow rounded-full md:rounded-2xl' alt="alt"/>
                 <p className='user-bio-text drop-in-2'>l'm' a Frontend Developer shaping the web with code and design.</p>
               </div>
               <div className='quetes'>

@@ -1,6 +1,5 @@
 @media screen and (min-width:350px) and (max-width:480px) {
-.user-bio-p{
-    font-family: inter, sans serif;
+.user-bio-p{  
     font-size: x-large;
     font-weight: 600;
     color: #303133;
@@ -40,7 +39,6 @@
 }
 
 .user-bio-text{
-    font-family: inter, sans serif;
     font-size: 32px;
     font-weight: 600;
     width: 100%;
@@ -79,7 +77,6 @@
     .user-bio-img {
         width: 60%;
         height: 210px;
-        border-radius: 155px;
         object-fit: cover;
         display: block;
         margin: auto;
@@ -90,7 +87,6 @@
     .user-bio-img {
         width: 60%;
         height: 220px;
-        border-radius: 155px;
         object-fit: cover;
         display: block;
         margin: auto;
@@ -101,7 +97,6 @@
     .user-bio-img {
         width: 60%;
         height: 235px;
-        border-radius: 155px;
         object-fit: cover;
         display: block;
         margin: auto;
@@ -119,7 +114,6 @@
     }
 
     .user-bio-p{
-        font-family: inter, sans serif;
         font-size: x-large;
         font-weight: 600;
         color: #303133;
@@ -153,7 +147,6 @@
     }
 
     .user-bio-text{
-        font-family: inter, sans serif;
         font-size: 68px;
         font-weight: 600;
         width: 50%;
@@ -165,7 +158,6 @@
         width: 35%;
         height: 465px;
         float: right;
-        border-radius: 2px;
         margin: 2% 0;
         object-fit: cover;
     }
