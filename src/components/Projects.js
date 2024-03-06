@@ -25,7 +25,7 @@ function Projects() {
           </div>
         </a>
 
-        <a href='https://www.youtube.com/watch?v=HIf0FSB7qVs' target='_blank' rel="noreferrer">
+        <a href='https://www.youtube.com/watch?v=0A2suBiJqIc&t=7s' target='_blank' rel="noreferrer">
             <div className='pro-box'>
                 <img src={speech} alt='alt'/>
             </div>
