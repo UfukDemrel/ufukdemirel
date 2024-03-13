@@ -94,7 +94,7 @@ const Social = () => {
 
         <a href="https://www.pexels.com/tr-tr/@ufuk-demirel-685205934/" target='_blank' rel="noreferrer">
           <div className="grid-item color9">
-            <img src="https://play-lh.googleusercontent.com/KtFwMsqVzBBpTFc8vR5SZRCNBvqknlWurnzTRl4J-2kdZhoM04LjklX9Vh8pl-fYfpU" alt="top logo" />
+            <img src="https://c.clc2l.com/t/-/2/-2kd96A.png" alt="top logo" />
             <p className='title'>Pexels</p>
             <p className='text'>@ufukdemirel</p>
             <button type='submit' className='pexel'>See</button>
@@ -141,7 +141,7 @@ const Social = () => {
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Follow our Next.Js course and let's improve together!</p>
             <p className='y-text'>youtube.com</p>
-            <img src='next.png' className="youtube" alt='alt' />
+            <img src='nextjs.jpg' className="youtube" alt='alt' />
           </div>
         </a>
 
