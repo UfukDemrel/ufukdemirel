@@ -26,16 +26,16 @@ const Social = () => {
           </div>
         </a> */}
 
-        <a href='https://twitter.com/FrontJockey' target='_blank' rel="noreferrer">
+        {/* <a href='https://twitter.com/FrontJockey' target='_blank' rel="noreferrer">
           <div className="grid-item color2">
             <img alt='alt' src={twitter} />
             <p className='title'>Twitter</p>
             <p className='text'>@frontjockey</p>
             <button type='submit' className='twitter'>Follow</button>
           </div>
-        </a>
+        </a> */}
 
-        <a href='https://www.linkedin.com/in/ufuk-demirel-3136b6183/' target='_blank' rel="noreferrer">
+        <a href='https://www.linkedin.com/in/ufuk-demirel-1a6058389' target='_blank' rel="noreferrer">
           <div className="grid-item color3">
             <img alt='alt' src={linkedlin} />
             <p className='title'>Linkedln</p>
@@ -71,7 +71,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href='https://mail.google.com/mail/u/0/?pli=1#inbox' target='_blank' rel="noreferrer">
+        <a href='https://mail.google.com/mail/u/0/#inbox' target='_blank' rel="noreferrer">
           <div class="grid-item color7">
             <img src={gmail} alt="top logo" />
             <p className='title'>Gmail</p>
@@ -98,15 +98,15 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.instagram.com/wanderscenic/" target='_blank' rel="noreferrer">
+        {/* <a href="https://www.instagram.com/wanderscenic/" target='_blank' rel="noreferrer">
           <div className="grid-item padding">
             <img className="sea" src='sea.gif' alt="top logo" />
           </div>
-        </a>
+        </a> */}
       </div>
 
       <div className="two-grid">
-        <a href="https://www.youtube.com/watch?v=eiyMQP9-10s&t=22s" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/s_EIxjekqOU" target='_blank' rel="noreferrer">
           <div className='one-grid'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Infinite Scroll On Collection Page Without App | Shopify</p>
@@ -115,7 +115,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=V4rQ4QuhzVs&t=10s" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/4V3k_foNkV4" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Infinite Scroll on Collection Page that Can be Called Across the Entire Project Without an App</p>
@@ -124,7 +124,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://youtu.be/O2UzkR5Msrw" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/m_4WpzmpGaE" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>How to make React projects live with Github and Vercel?</p>
@@ -133,7 +133,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/playlist?list=PLgENWnfcPjeaFOMl44BxgKqNFRX3gXtq0" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/hBidGIinQ8o" target='_blank' rel="noreferrer">
           <div className='one-grid'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Follow our Next.Js course and let's improve together!</p>
@@ -142,7 +142,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=CRt1E2V1tdo" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/Dh76vRl7i1w" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Follow our React.Js course and let's improve together!</p>
@@ -151,7 +151,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=CRt1E2V1tdo" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/DKFuSg3eKRw" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Let's learn Javascript together!</p>
@@ -163,7 +163,7 @@ const Social = () => {
         <a href="https://www.youtube.com/watch?v=n8IDqeaPi8U" target='_blank' rel="noreferrer">
           <div className='one-grid'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
-            <p className='y-title'>CodeEditor Clone Website - (Next.Js, React, TailwindCSS)</p>
+            <p className='y-title'>CodeEditor Clone Website - (Next.Js, React)</p>
             <p className='y-text'>youtube.com</p>
             <img src='clone.jpg' className="youtube" alt='alt' />
           </div>
@@ -172,7 +172,7 @@ const Social = () => {
         <a href="https://www.youtube.com/watch?v=n8IDqeaPi8U" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
-            <p className='y-title'>Porfolio Website Creation - (Next.Js, React, TailwindCSS)</p>
+            <p className='y-title'>Porfolio Website Creation - (Next.Js, React)</p>
             <p className='y-text'>youtube.com</p>
             <img src='portfolio.png' className="youtube" alt='alt' />
           </div>

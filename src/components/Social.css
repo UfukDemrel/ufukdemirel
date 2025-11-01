@@ -61,7 +61,7 @@ body {
 
   .grid-item {
     background-color: white;
-    border: 1px solid rgb(235 235 235);
+    border: 1px solid rgb(157, 154, 154);
     border-radius: 20px;
     text-align: left;
     color: black;
@@ -250,13 +250,13 @@ body {
     margin-top: 10%;
     border: 1px solid rgb(235 235 235);
     padding: 12px;
-    background-color: #FFF0F0;
+    background-color: #edd2d2;
     display: inline-block;
   }
 
-  .space{
+  /* .space{
     margin-left: 6%;
-  }
+  } */
 
   .y-title{
     margin-bottom: 0;
@@ -297,7 +297,7 @@ body {
     
   .grid-item {
     background-color: white;
-    border: 1px solid rgb(235 235 235);
+    border: 1px solid rgb(157, 154, 154);
     border-radius: 20px;
     text-align: left;
     color: black;
@@ -334,7 +334,7 @@ body {
   }
 
   .color3{
-    background-color: #f1f2f6;
+    background-color: #e2e6f3;
   }
 
   .color5{
@@ -505,6 +505,7 @@ body {
     display: grid;
     margin-top: 5%;
     width: 100%;
+    text-align: center;
   }
 }
 

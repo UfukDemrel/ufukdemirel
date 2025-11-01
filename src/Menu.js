@@ -73,7 +73,7 @@ function Menu() {
       
       <div className="img-card4" style={visible4 ? { display: 'flex' } : { display: 'none' }}>CV</div>
       <div className="menu-img">
-        <a href='https://drive.google.com/file/d/1R2FjrB-U0s6fYOB-ukCmMyDfFsWFBQZq/view?usp=drive_link' rel="noreferrer" target='_blank'>
+        <a href='https://drive.google.com/file/d/1PwWL91Jq7r45JNi1dzwvD2q3rrOFBuD-/view?usp=drive_link' rel="noreferrer" target='_blank'>
         <img
           className="home"
           src={cv}
