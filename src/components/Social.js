@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import "../components/Social.css";
+import github from '../images/github.png';
+import gmail from '../images/gmail.png';
+import linkedlin from '../images/linkedlin.png';
+import medium from '../images/medium.png';
+import twitter from '../images/twitter.png';
+import udemy from '../images/udemy.png';
 import youtubelogo from '../images/youtube-logo.png';
 import youtube from '../images/youtube.png';
-import instagram from '../images/instagram.png';
-import twitter from '../images/twitter.png';
-import linkedlin from '../images/linkedlin.png';
-import github from '../images/github.png';
-import bionluk from '../images/bionluk.png';
-import udemy from '../images/udemy.png';
-import gmail from '../images/gmail.png';
-import medium from '../images/medium.png';
-import "../components/Social.css";
 
 const Social = () => {
 
@@ -20,14 +17,14 @@ const Social = () => {
       </div>
 
       <div class="grid-container">
-        <a href='https://www.instagram.com/ufukdemrel/' target='_blank' rel="noreferrer">
+        {/* <a href='https://www.instagram.com/ufukdemrel/' target='_blank' rel="noreferrer">
           <div className="grid-item color1">
             <img alt='alt' src={instagram} />
             <p className='title'>Instagram</p>
             <p className='text'>@ufukdemrel</p>
             <button type='submit' className='instagram'>Follow</button>
           </div>
-        </a>
+        </a> */}
 
         <a href='https://twitter.com/FrontJockey' target='_blank' rel="noreferrer">
           <div className="grid-item color2">
