@@ -1,184 +1,144 @@
-@media screen and (min-width:350px) and (max-width:480px) {      
-    .card-1 {
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        border: 1px solid #e6e6e6;
-    }
-      
-    .card-1:hover {
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-    }
-    
-    .menu-img img{
-        width: 55%;
+@media screen and (min-width:350px) and (max-width:480px) {
+    .menu-container {
         display: flex;
-        margin: auto;
-        margin-top: 80%;
-    }
-    
-    .img-card1 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        top: 0;
-        text-align: center;
-        font-weight: 600;
-        font-size: small;
+        /* flex-direction: column; */
         align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card2 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: small;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card3 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: small;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card4 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: small;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+        gap: 15px;
+        position: fixed;
+        bottom: 0%;
+        right: 25px;
+        transform: translateY(-50%);
+        z-index: 1000;
     }
 
-    .img-card5 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
+    .menu-item {
+        width: 55px;
+        height: 55px;
+        background-color: rgb(226, 220, 220);
         border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: small;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
         align-items: center;
         justify-content: center;
-        display: flex;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid rgb(181, 180, 180);
     }
 
-      
-    .card-1 {
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        border: 1px solid #e6e6e6;
+    .menu-item img {
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s ease;
     }
-      
-    .card-1:hover {
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
+
+    /* Hover efekti */
+    .menu-item:hover {
+        background-color: #000;
     }
-    
-    .menu-img img{
-        width: 55%;
-        display: flex;
-        margin: auto;
-        margin-top: 80%;
+
+    .menu-item:hover img {
+        filter: brightness(0) invert(1);
+    }
+
+    /* Yazı efekti */
+    .menu-item .label {
+        position: absolute;
+        bottom: 70px;
+        opacity: 0;
+        color: #000;
+        background-color: rgb(226, 220, 220);
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-size: 14px;
+        font-weight: 600;
+        white-space: nowrap;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+
+    /* Hover olunca yazı görünür */
+    .menu-item:hover .label {
+        opacity: 1;
+    }
+
+    /* Aktif olan menü */
+    .menu-item.active {
+        background-color: #000;
     }
 }
 
-@media screen and (max-width:376px){  
-    .card {
-        background: #fff;
-        border-radius: 10px;
-        display: inline-block;
-        height: 31%;
-        margin: 35rem 1rem 0 0;
-        width: 34px;
+@media screen and (min-width:392px) and (max-width:450px) {
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
         position: fixed;
-        top: 0;
-        right: 0;
+        top: 50%;
+        right: 25px;
+        transform: translateY(-50%);
+        z-index: 1000;
     }
 
-    .user-bio-img {
-        width: 60%;
-        height: 225px;
-        object-fit: cover;
-        display: block;
-        margin: auto;
-    }
-}
-
-@media screen and (min-width:377px) and (max-width:392px){  
-    .card {
-        background: #fff;
+    .menu-item {
+        width: 55px;
+        height: 55px;
+        background-color: rgb(226, 220, 220);
         border-radius: 10px;
-        display: inline-block;
-        height: 29.2%;
-        margin: 35rem 1rem 0 0;
-        width: 34px;
-        position: fixed;
-        top: 0;
-        right: 0;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid rgb(181, 180, 180);
     }
 
-    .user-bio-img {
-        width: 60%;
-        height: 225px;
-        object-fit: cover;
-        display: block;
-        margin: auto;
+    .menu-item img {
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s ease;
     }
-}
 
-@media screen and (min-width:392px) and (max-width:450px){  
-    .card {
-        background: #fff;
-        border-radius: 10px;
-        display: inline-block;
-        height: 34%;
-        margin: 35rem 1rem 0 0;
-        width: 34px;
-        position: fixed;
-        top: 0;
-        right: 0;
+    /* Hover efekti */
+    .menu-item:hover {
+        background-color: #000;
+    }
+
+    .menu-item:hover img {
+        filter: brightness(0) invert(1);
+    }
+
+    /* Yazı efekti */
+    .menu-item .label {
+        position: absolute;
+        right: 70px;
+        opacity: 0;
+        color: #000;
+        background-color: rgb(226, 220, 220);
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-size: 14px;
+        font-weight: 600;
+        white-space: nowrap;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+
+    /* Hover olunca yazı görünür */
+    .menu-item:hover .label {
+        opacity: 1;
+        transform: translateX(5px);
+    }
+
+    /* Aktif olan menü */
+    .menu-item.active {
+        background-color: #000;
     }
 
     .user-bio-img {
@@ -191,212 +151,73 @@
 }
 
 @media screen and (min-width:1023px) {
-    .card-1 {
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        border: 1px solid #e6e6e6;
-    }
-      
-    .card-1:hover {
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-    }
-    
-    .menu-img img{
-        width: 55%;
+    .menu-container {
         display: flex;
-        margin: auto;
-        margin-top: 80%;
-    }
-    
-    .img-card1 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        top: 0;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card2 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card3 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card4 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    .card {
-        background: #fff;
-        border-radius: 10px;
-        display: block;
-        height: 42%;
-        margin: 15rem 1rem 0 0;
-        width: 35px;
+        gap: 15px;
         position: fixed;
-        top: 0;
-        right: 0;
-    }
-      
-    .card-1 {
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        border: 1px solid #cbc8c8;
-    }
-      
-    .card-1:hover {
-        box-shadow: 0 1px 3px rgb(154, 154, 154), 0 1px 2px rgb(192, 192, 192);
-    }
-    
-    .menu-img img{
-        width: 80%;
-        display: flex;
-        margin: auto;
-        margin-top: 80%;
-    }
-    
-    .img-card1 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        top: 0;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card2 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card3 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-    
-    .img-card4 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
-        border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
-        align-items: center;
-        justify-content: center;
-        display: flex;
+        top: 50%;
+        right: 25px;
+        transform: translateY(-50%);
+        z-index: 1000;
     }
 
-    .img-card5 {
-        background: #ffffff;
-        box-shadow: 0 1px 3px rgb(192, 192, 192), 0 1px 2px rgb(192, 192, 192);
+    .menu-item {
+        width: 55px;
+        height: 55px;
+        background-color: rgb(226, 220, 220);
         border-radius: 10px;
-        margin: 1rem;
-        margin-top: 20px;
-        position: absolute;
-        right: 30px;
-        height: 15%;
-        width: 70px;
-        text-align: center;
-        font-weight: 600;
-        font-size: smaller;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
         align-items: center;
         justify-content: center;
-        display: flex;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid rgb(181, 180, 180);
+    }
+
+    .menu-item img {
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s ease;
+    }
+
+    /* Hover efekti */
+    .menu-item:hover {
+        background-color: #000;
+    }
+
+    .menu-item:hover img {
+        filter: brightness(0) invert(1);
+    }
+
+    /* Yazı efekti */
+    .menu-item .label {
+        position: absolute;
+        right: 70px;
+        opacity: 0;
+        color: #000;
+        background-color: rgb(226, 220, 220);
+        border-radius: 6px;
+        padding: 6px 10px;
+        font-size: 14px;
+        font-weight: 600;
+        white-space: nowrap;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+
+    /* Hover olunca yazı görünür */
+    .menu-item:hover .label {
+        opacity: 1;
+        transform: translateX(5px);
+    }
+
+    /* Aktif olan menü */
+    .menu-item.active {
+        background-color: #000;
     }
 }
-
-

@@ -11,7 +11,7 @@ import english from '../images/english.png';
 function Projects() {
   return (
     <div className='user-bio-div'>
-      <div className='user-bio-p'>Projects</div>
+      <div className='user-bio-p'>PROJECTS</div>
       <div className='projects'>
 
         <a href='https://grammer-zeta.vercel.app/' target='_blank' rel="noreferrer">

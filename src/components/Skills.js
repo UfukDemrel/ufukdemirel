@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
   return (
     <div className='user-bio-div'>
-      <div className='user-bio-p'>Skills</div>
+      <div className='user-bio-p'>SKİLLS</div>
       <div className='grid-skills'>
           <img className='' src="html.png" alt='alt'/>
           <img className='' src="js.png" alt='alt'/>

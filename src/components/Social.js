@@ -3,7 +3,6 @@ import github from '../images/github.png';
 import gmail from '../images/gmail.png';
 import linkedlin from '../images/linkedlin.png';
 import medium from '../images/medium.png';
-import twitter from '../images/twitter.png';
 import udemy from '../images/udemy.png';
 import youtubelogo from '../images/youtube-logo.png';
 import youtube from '../images/youtube.png';
@@ -13,28 +12,10 @@ const Social = () => {
   return (
     <div className="">
       <div className='user-bio-div'>
-        <div className='user-bio-p'>Social</div>
+        <div className='user-bio-p'>SOCİAL</div>
       </div>
 
       <div class="grid-container">
-        {/* <a href='https://www.instagram.com/ufukdemrel/' target='_blank' rel="noreferrer">
-          <div className="grid-item color1">
-            <img alt='alt' src={instagram} />
-            <p className='title'>Instagram</p>
-            <p className='text'>@ufukdemrel</p>
-            <button type='submit' className='instagram'>Follow</button>
-          </div>
-        </a> */}
-
-        {/* <a href='https://twitter.com/FrontJockey' target='_blank' rel="noreferrer">
-          <div className="grid-item color2">
-            <img alt='alt' src={twitter} />
-            <p className='title'>Twitter</p>
-            <p className='text'>@frontjockey</p>
-            <button type='submit' className='twitter'>Follow</button>
-          </div>
-        </a> */}
-
         <a href='https://www.linkedin.com/in/ufuk-demirel-1a6058389' target='_blank' rel="noreferrer">
           <div className="grid-item color3">
             <img alt='alt' src={linkedlin} />
@@ -52,15 +33,6 @@ const Social = () => {
             <button type='submit' className='github'>Follow</button>
           </div>
         </a>
-
-        {/* <a href='https://bionluk.com/ufukdemrel' target='_blank' rel="noreferrer">
-          <div className="grid-item color5">
-            <img src={bionluk} alt="top logo" />
-            <p className='title'>ufukdemrel</p>
-            <p className='text'>@ufukdemrel</p>
-            <button type='submit' className='bionluk'>Follow</button>
-          </div>
-        </a> */}
 
         <a href='https://www.udemy.com/course/uygulama-ve-odevlerle-mssql-egitimi-part-2/learn/lecture/25323008#overview' target='_blank' rel="noreferrer">
           <div className="grid-item color6">
@@ -97,12 +69,6 @@ const Social = () => {
             <button type='submit' className='pexel'>See</button>
           </div>
         </a>
-
-        {/* <a href="https://www.instagram.com/wanderscenic/" target='_blank' rel="noreferrer">
-          <div className="grid-item padding">
-            <img className="sea" src='sea.gif' alt="top logo" />
-          </div>
-        </a> */}
       </div>
 
       <div className="two-grid">
