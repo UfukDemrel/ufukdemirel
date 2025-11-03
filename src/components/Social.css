@@ -4,7 +4,7 @@ body {
 }
 
 @media screen and (min-width:350px) and (max-width:480px) {
-  .one-grid{
+  .one-grid {
     display: block;
     width: 100%;
     border-radius: 20px;
@@ -14,54 +14,58 @@ body {
     margin-bottom: 5%;
   }
 
-  .two-grid{
-    margin-top: 60%;
+  .two-grid {
+    margin-top: 10%;
   }
 
-  .y-title{
+  .y-title {
     margin-bottom: 0;
     font-weight: 500;
     font-size: 15px;
     color: black;
   }
-  
-  .y-text{
+
+  .y-text {
     font-weight: 100;
     font-size: 11px;
     margin-top: 2%;
     color: black;
   }
-  
-  .youtubelogo{
+
+  .youtubelogo {
     margin-bottom: 5%;
     width: 13%;
     height: 11%;
     border-radius: 7px;
   }
-  
-  .youtube{
+
+  .youtube {
     width: -webkit-fill-available;
     margin-top: 5%;
     border-radius: 10px;
   }
 
-  .grid-container{
+  .grid-container {
     resize: both;
-    display: grid;
-    gap: 6% 2rem;    
-    margin-top: 10%;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5%;
     width: 100%;
+    text-align: center;
   }
 
-  .grid-container a{
+  .grid-container a {
     display: flex;
     justify-content: center;
+    width: 50%;
+    margin-bottom: 8%;
   }
 
   .grid-item {
     background-color: white;
-    border: 1px solid rgb(157, 154, 154);
+    border: 0.7px solid rgb(213, 213, 213);
     border-radius: 20px;
     text-align: left;
     color: black;
@@ -70,24 +74,25 @@ body {
     height: 100%;
   }
 
-  .grid-item img{
+  .grid-item img {
     margin-bottom: 10%;
     width: 30%;
     border-radius: 7px;
   }
 
-  .title{
+  .title {
     margin-bottom: 0;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: bold;
+    font-size: 14px;
   }
 
-  .text{
+  .text {
     font-weight: 100;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: bold;
   }
 
-  .instagram{
+  .instagram {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -98,11 +103,11 @@ body {
     background-color: #E03C60;
   }
 
-  .color1{
+  .color1 {
     background-color: #fee4e4;
   }
 
-  .twitter{
+  .twitter {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -113,125 +118,118 @@ body {
     background-color: #229DF0;
   }
 
-  .color2{
+  .color2 {
     background-color: #e2eff9;
   }
 
-  .linkedlin{
-    font-size: 10px;
-    font-weight: bold;
+  .linkedlin {
     color: white;
-    border: none;
-    width: 50%;
-    height: 25%;
-    border-radius: 10px;
     background-color: #0277B5;
-  }
-
-  .color3{
-    background-color: #f1f2f6;
-  }
-
-  .github{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
     border: none;
-    width: 50%;
-    height: 25%;
-    border-radius: 10px;
-    background-color: black;
-  }
-
-  .color4{
-  
-  }
-
-  .bionluk{
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    height: 25%;
-    border-radius: 10px;
-    background-color: #F83D58;
-  }
-
-  .color5{
-    background-color: #ffeeee;
-  }
-
-  .udemy{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    height: 25%;
-    border-radius: 10px;
-    background-color: #32044F;
-  }
-
-  .color6{
-    background-color: #e1d4f9;
-  }
-
-  .gmail{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    height: 25%;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(60, 186, 84), rgb(244, 194, 13), rgb(219, 50, 54), rgb(72, 133, 237));
-  }
-
-  .color7{
-  }
-
-  .color8{
-    background-color: #d2d8d4;
-  }
-
-  .color9{
-    background-color: #dff8f5;
-  }
-
-  .pexel{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #52AFA2;
-    height: 27px;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
-  .medium{
-    font-size: 10px;
-    font-weight: bold;
+  .color3 {
+    background-color: #f1f2f6;
+  }
+
+  .github {
     color: white;
     border: none;
-    /* width: 50%; */
-    height: 27px;
-    border-radius: 10px;
-    background-color: #22c35a;
+    background-color: black;
+    font-size: 13px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .sea{
+  .udemy {
+    color: white;
+    border: none;
+    background-color: #32044F;
+    font-size: 13px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .color6 {
+    background-color: #e1d4f9;
+  }
+
+  .gmail {
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, rgb(60, 186, 84), rgb(244, 194, 13), rgb(219, 50, 54), rgb(72, 133, 237));
+    font-size: 13px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .color8 {
+    background-color: #d2d8d4;
+  }
+
+  .color9 {
+    background-color: #dff8f5;
+  }
+
+  .pexel {
+    color: white;
+    border: none;
+    background-color: #52AFA2;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 6px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .medium {
+    color: white;
+    border: none;
+    background-color: #22c35a;
+    font-size: 13px;
+    font-weight: bold;
+    width: 75%;
+    border-radius: 6px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sea {
     margin-bottom: 0 !important;
     width: 100% !important;
     border-radius: 20px !important;
   }
 
-  .padding{
+  .padding {
     padding: 0px !important;
     border: none;
     display: flex;
@@ -239,11 +237,11 @@ body {
 }
 
 @media screen and (min-width:1023px) {
-  .all{
+  .all {
     display: flex;
   }
 
-  .one-grid{
+  .one-grid {
     width: 330px;
     height: 361px;
     border-radius: 20px;
@@ -258,7 +256,7 @@ body {
     margin-left: 6%;
   } */
 
-  .y-title{
+  .y-title {
     margin-bottom: 0;
     font-weight: 500;
     font-size: 13px;
@@ -272,14 +270,14 @@ body {
     color: black;
   }
 
-  .youtubelogo{
+  .youtubelogo {
     margin-bottom: 5%;
     width: 13%;
     height: 11%;
     border-radius: 7px;
   }
 
-  .youtube{
+  .youtube {
     width: -webkit-fill-available;
     margin-top: 5%;
     border-radius: 10px;
@@ -294,10 +292,10 @@ body {
     width: 100%;
     align-items: center;
   }
-    
+
   .grid-item {
     background-color: white;
-    border: 1px solid rgb(157, 154, 154);
+    border: 0.7px solid rgb(213, 213, 213);
     border-radius: 20px;
     text-align: left;
     color: black;
@@ -306,84 +304,54 @@ body {
     height: 100%;
   }
 
-  .grid-item img{
+  .grid-item img {
     margin-bottom: 10%;
     width: 30%;
     border-radius: 7px;
   }
 
-  .title{
+  .title {
     margin-bottom: 0;
     font-weight: 400;
     font-size: 13px;
     color: black;
   }
 
-  .text{
+  .text {
     font-weight: 100;
     font-size: 11px;
     margin-bottom: revert;
   }
 
-  .color1{
+  .color1 {
     background-color: #fee4e4;
   }
 
-  .color2{
+  .color2 {
     background-color: #e2eff9;
   }
 
-  .color3{
+  .color3 {
     background-color: #e2e6f3;
   }
 
-  .color5{
+  .color5 {
     background-color: #ffeeee;
   }
 
-  .color6{
+  .color6 {
     background-color: #e1d4f991;
   }
 
-  .color8{
+  .color8 {
     background-color: #d2d8d4;
   }
 
-  .color9{
+  .color9 {
     background-color: #dff8f5;
   }
 
-  .instagram{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #E03C60;
-    height: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .twitter{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #229DF0;
-    height: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .linkedlin{
+  .linkedlin {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -398,7 +366,7 @@ body {
     text-align: center;
   }
 
-  .github{
+  .github {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -413,22 +381,7 @@ body {
     text-align: center;
   }
 
-  .bionluk{
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #F83D58;
-    height: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .udemy{
+  .udemy {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -443,7 +396,7 @@ body {
     text-align: center;
   }
 
-  .gmail{
+  .gmail {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -458,7 +411,7 @@ body {
     text-align: center;
   }
 
-  .medium{
+  .medium {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -473,7 +426,7 @@ body {
     text-align: center;
   }
 
-  .pexel{
+  .pexel {
     font-size: 10px;
     font-weight: bold;
     color: white;
@@ -488,24 +441,20 @@ body {
     text-align: center;
   }
 
-  .sea{
-    margin-bottom: 0 !important;
-    width: 100% !important;
-    border-radius: 20px !important;
-  }
-
-  .padding{
+  .padding {
     padding: 5px !important;
     border: none;
   }
 
-  .two-grid{
-    grid-template-columns: repeat(3, 1fr);
+  .two-grid {
     resize: both;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
     margin-top: 5%;
     width: 100%;
     text-align: center;
   }
 }
-
