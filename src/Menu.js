@@ -8,15 +8,19 @@ import pro from './images/pro.png';
 import cv from './images/cv.png'; 
 
 function Menu() {
-  const [hoverIndex, setHoverIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const menuItems = [
     { icon: home, label: 'HOME', path: '/' },
-    { icon: social, label: 'SOCİAL', path: '/social' },
-    { icon: skills, label: 'SKİLLS', path: '/skills' },
+    { icon: social, label: 'SOCIAL', path: '/social' },
+    { icon: skills, label: 'SKILLS', path: '/skills' },
     { icon: pro, label: 'PROJECTS', path: '/projects' },
     { icon: cv, label: 'CV', path: 'https://drive.google.com/file/d/1PwWL91Jq7r45JNi1dzwvD2q3rrOFBuD-/view?usp=drive_link' },
   ];
+
+  const handleClick = (index) => {
+    setActiveIndex(index);
+  };
 
   return (
     <div className="menu-container">
@@ -24,9 +28,8 @@ function Menu() {
         <Link
           key={index}
           to={item.path}
-          className={`menu-item ${hoverIndex === index ? 'active' : ''}`}
-          onMouseEnter={() => setHoverIndex(index)}
-          onMouseLeave={() => setHoverIndex(null)}
+          className={`menu-item ${activeIndex === index ? 'active' : ''}`}
+          onClick={() => handleClick(index)}
         >
           <img src={item.icon} alt={item.label} />
           <span className="label">{item.label}</span>
