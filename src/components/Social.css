@@ -245,7 +245,7 @@ body {
     width: 330px;
     height: 361px;
     border-radius: 20px;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     border: 1px solid rgb(235 235 235);
     padding: 12px;
     background-color: #edd2d2;

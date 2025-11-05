@@ -6,6 +6,7 @@ import medium from '../images/medium.png';
 import udemy from '../images/udemy.png';
 import youtubelogo from '../images/youtube-logo.png';
 import youtube from '../images/youtube.png';
+import speech from '../images/speech.jpg';
 
 const Social = () => {
 
@@ -126,7 +127,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=n8IDqeaPi8U" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/Nia7R65XGTg" target='_blank' rel="noreferrer">
           <div className='one-grid'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>CodeEditor Clone Website - (Next.Js, React)</p>
@@ -135,16 +136,16 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=n8IDqeaPi8U" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/r_WGBSofS0Q" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
-            <p className='y-title'>Porfolio Website Creation - (Next.Js, React)</p>
+            <p className='y-title'>Portfolio Website Creation - (Next.Js, React)</p>
             <p className='y-text'>youtube.com</p>
             <img src='portfolio.png' className="youtube" alt='alt' />
           </div>
         </a>
 
-        <a href="https://youtu.be/UFYxyPURKsU" target='_blank' rel="noreferrer">
+        <a href="https://youtu.be/KSd3YNeXWak" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Dropzone Mail Website (Node.Js, Express, React)</p>
@@ -153,7 +154,7 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://youtu.be/UFYxyPURKsU" target='_blank' rel="noreferrer">
+        <a href="https://www.youtube.com/watch?v=8koPfnC1qvU" target='_blank' rel="noreferrer">
           <div className='one-grid'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>React, Next.JS ile Translate Çeviri Websitesi</p>
@@ -162,7 +163,16 @@ const Social = () => {
           </div>
         </a>
 
-        <a href="https://youtu.be/UFYxyPURKsU" target='_blank' rel="noreferrer">
+        <a href="https://www.youtube.com/watch?v=ZCFJDKjYfTg" target='_blank' rel="noreferrer">
+          <div className='one-grid'>
+            <img alt='alt' className="youtubelogo" src={youtubelogo} />
+            <p className='y-title'>Speech Recognition Website - React, Tailwind.Css</p>
+            <p className='y-text'>youtube.com</p>
+            <img src={speech} className="youtube" alt='alt' />
+          </div>
+        </a>
+
+        <a href="https://youtu.be/ITcKz85ju3U" target='_blank' rel="noreferrer">
           <div className='one-grid space'>
             <img alt='alt' className="youtubelogo" src={youtubelogo} />
             <p className='y-title'>Show Color Variations on a Shopify Product Page</p>
